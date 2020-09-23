@@ -1,48 +1,26 @@
-5 10
-
+5 10 7
 Enter first number
-Enter Second number
-
-the two numbers are 5 10
+Enter Second numberthe two numbers are 5 10
  
 1 2
-
 Enter first number
-Enter Second number
-
-the two numbers are 1 2
+Enter Second numberthe two numbers are 1 2
  
 2 3
-
 Enter first number
-Enter Second number
-
-the two numbers are 2 3
+Enter Second numberthe two numbers are 2 3
  
 5 6
-
-Enter first number
-Enter Second number
-
-the two numbers are 5 6
+Enter first numberEnter Second numberthe two numbers are 5 6
  
 330 5400 
-
 Enter first number
-Enter Second number
-
-the two numbers are 330 5400
+Enter Second numberthe two numbers are 330 5400
  
 420 1360
-
 Enter first number
-Enter Second number
-
-the two numbers are 420 1360
+Enter Second numberthe two numbers are 420 1360
  
-440 3340 
-Enter first number
-Enter Second number
-
-the two numbers are 440 3340
+440 3340 Enter first number
+Enter Second numberthe two numbers are 440 3340
  

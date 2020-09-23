@@ -23,12 +23,23 @@ def runCpp(filePath, input): #runs the CPP comment
     s = subprocess.check_output(filePath, stdin = data, shell=True)
     return s.decode("utf-8")
 
+def insertInputs(lineEncoding, output, input):
+    outputArr = output.split("\n")
+    inputArr = input.split(" ")
+
+    for i in range(len(inputArr)):
+        outputArr[lineEncoding[i]-1] = outputArr[lineEncoding[i]-1] + " " + inputArr[i]
+    
+
 #/***********MAIN CODE**************/
 
 inputFilePath = getInputFile() #input file for test cases & commands
 lines = returnLines(inputFilePath)
 command = lines[0]
-lines = lines[1:]
+lineDisplayEncoding = lines[1]
+
+
+lines = lines[2:]
 outputWriter = open("output.txt", "w")
 
 for line in lines:
